@@ -1,0 +1,68 @@
+.tarjeta {
+    width: 300px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: 1px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    padding: 20px; 
+}
+
+.imagen-perfil{
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 15px;
+    margin: auto;
+    width: 250px;
+}
+.nombre{
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c, #ff6374);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.titulo{
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    
+}
+.instagram:hover {
+    background-color: #c13584;
+}
+
+.valorant:hover {
+    background-color: #bd4556;
+}
+.linkedIn:hover {
+    background-color: #0077b5;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+
