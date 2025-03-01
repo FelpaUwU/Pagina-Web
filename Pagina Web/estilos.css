@@ -102,4 +102,7 @@
 .btn:hover{
     background-color: blueviolet;
 }
+.mensaje{
+    text-align: center;
+}
 
