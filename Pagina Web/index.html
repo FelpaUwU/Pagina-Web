@@ -6,6 +6,7 @@
     <title>Mi Página Web</title>
     <link rel="stylesheet" href="estilos.css"> 
     <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <div class="tarjeta">
@@ -54,6 +55,13 @@
         </section>
         <div class="boton">
             <button class="btn">Pasar el mouse</button>
+        </div>
+        <div class="prueba-js">
+            <p class="mensaje-original" id="mensaje">Hola soy un mensaje original</p>
+            <button onclick="cambiarMensaje()">Cambiar el mensaje</button>
+            <script>
+                mostrarMensajeOriginal()
+            </script>
         </div>
     </div>
 </body>
