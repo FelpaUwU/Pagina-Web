@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos.css"> 
     <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
     <script src="index.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="tarjeta">
@@ -56,12 +57,15 @@
         <div class="boton">
             <button class="btn">Pasar el mouse</button>
         </div>
-        <div class="prueba-js">
-            <p class="mensaje-original" id="mensaje">Hola soy un mensaje original</p>
-            <button onclick="cambiarMensaje()">Cambiar el mensaje</button>
+        <p class="mensaje" id="mensaje">Hola soy un mensaje original</p>
+        <div class="boton">
+            <button onclick="cambiarMensaje()" class="btn">Cambiar el mensaje</button>
             <script>
                 mostrarMensajeOriginal()
             </script>
+        </div>
+        <div class="boton">
+            <button id="btn-cambiar" class="btn">Cambiar Estilo</button>
         </div>
     </div>
 </body>
